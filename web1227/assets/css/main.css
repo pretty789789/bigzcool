@@ -68,18 +68,22 @@ body,html{overflow-x:hidden; font-family: '微软雅黑';}
 .headerBanner{/*background: url('../img/banner.jpg') no-repeat center center;height:691px;*/position: relative;width: 100%;}
 
 .naviWrapper{/*position:relative;*/z-index:3;/*padding:20px 0 0;*/}
-.navi{width:760px;height:100px;margin:0 auto; display: flex; flex-wrap: nowrap;justify-content: center; align-items: center; margin-top: 90px; z-index: 100;position: relative}
+.navi{width:920px;height:100px;margin:0 auto; display: flex; flex-wrap: nowrap;justify-content: center; align-items: center; margin-top: 90px; z-index: 100;position: relative}
 .navi li{margin-right: 40px;}
 .navi li a.nav1{background: url(../img/nav1.png) no-repeat center center;width: 164px;height:88px;display: inline-block; position: absolute;left: 2px;top: 0px;}
 .navi li a.nav2{background: url(../img/nav2.png) no-repeat center center;width: 164px;height:88px;display: inline-block;position: absolute;left: 200px;top: 30px;}
 .navi li a.nav3{background: url(../img/nav3.png) no-repeat center center;width: 164px;height:87px;display: inline-block;position: absolute;left: 400px;top: 0px;}
-.navi li a.nav4{background: url(../img/nav4.png) no-repeat center center;width: 164px;height:77px;display: inline-block;position: absolute;right: 0;top: 30px;}
+.navi li a.nav4{background: url(../img/nav4.png) no-repeat center center;width: 164px;height:77px;display: inline-block;position: absolute;right: 180px;top: 30px;}
+.navi li a.nav5{background: url(../img/nav5.png) no-repeat center center;width: 164px;height:88px;display: inline-block;position: absolute;right: 0;top: 0px;}
+
+
+
 
 .navi li a.nav1:hover,.navi li.active a.nav1{background: url(../img/nav1_ac.png) no-repeat center center;width: 164px;height:88px;display: inline-block;}
 .navi li a.nav2:hover,.navi li.active a.nav2{background: url(../img/nav2_ac.png) no-repeat center center;width: 164px;height:88px;display: inline-block;}
 .navi li a.nav3:hover,.navi li.active a.nav3{background: url(../img/nav3_ac.png) no-repeat center center;width: 164px;height:87px;display: inline-block;}
 .navi li a.nav4:hover,.navi li.active a.nav4{background: url(../img/nav4_ac.png) no-repeat center center;width: 164px;height:77px;display: inline-block;}
-
+.navi li a.nav5:hover,.navi li.active a.nav5{background: url(../img/nav5_ac.png) no-repeat center center;width: 164px;height:88px;display: inline-block;}
 
 
 
@@ -135,7 +139,7 @@ a.specialBtn:hover{background:url('../img/ups_ac.png') no-repeat center center;}
 .txLine{width: 34px;height: 1px;background: #fff;display: block;margin-left:auto; margin-right: auto; }
 .topTexT span{font-size: 22px; background: none; color: #fcdb00;}
 .topText{position: relative;color: #fff;font-size: 20px;background: url(../img/ttx.png) no-repeat center center; line-height: 36px;}
-
+.topText b{font-size: 36px;color: #fcdb00;}
 
 .zxUl{color: #fff; display: flex; flex-wrap: wrap; justify-content: space-between;font-size: 14px; width: 1075px;}
 .zxUl li{margin-bottom: 26px; width: 250px;}
@@ -276,6 +280,20 @@ a.dBtn:hover{background: url('../img/dbtn_ac.png') no-repeat center center;}
 .upbg{position: relative;z-index: 200;}
 .ptTxt2{color: #3267e0;font-size: 24px;line-height: 42px;width: 805px;margin-left: auto;margin-right: auto;padding-top: 80px;}
 .footbAd{position: relative;z-index: 200;}
+
+
+/*add 0123*/
+.gsTp{font-size: 20px;line-height: 32px;background: url(../img/gstpimg.png) no-repeat center center;height: 369px; margin-top: 50px;}
+.gsTpSm{color: #fff;width: 750px;margin-left: auto;margin-right: auto;}
+.gsTp p{font-size: 16px;color: #fadf55;}
+
+
+
+
+
+
+
+
 
 
 
