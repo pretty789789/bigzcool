@@ -322,6 +322,12 @@ a.tpBtn.active .tpb1:hover,a.tpBtn.active .tpb2:hover{opacity: 0.8;}
 a.popSub{display: inline-block;width: 140px;height: 48px;background: url(../img/popbtn.png) no-repeat center center;}
 
 
+.tpMnb{color: #0b1e8d;font-size: 14px;background: #81ffe6;text-align: center;width:60px;height: 24px;line-height:24px;display: none;}
+
+
+
+
+
 
 
 

@@ -84,9 +84,8 @@ a.tpBtn.active .tpb2{display: inline-block;background: url(../img/tps2.png) no-r
 a.popSub{display: inline-block;width: 28.8vw;height: 9.733333vw;background: url(../img/popsbtn.png) no-repeat center center;background-size: 100% 100%;}
 .gb{width: 21.866667vw;height: 20.0vw;position: absolute;left: 0vw;bottom: 0;}
 .pb20{padding-bottom: 2.666667vw;}
-
-
-
+.tpMnb{color: #0b1e8d;font-size: 3.733333vw;background: #81ffe6;text-align: center;width: 16.0vw;height: 6.4vw;line-height: 6.4vw;display: none;}
+.none{display: none;}
 
 
 
