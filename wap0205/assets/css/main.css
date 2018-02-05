@@ -1,0 +1,88 @@
+.clearfix:after,.cl:after{content:'\20';display:block;height:0;clear:both;}.clearfix,.cl{*zoom:1;}.clear{clear:both;}
+.relative{position:relative;}.absolute{position:absolute;}.fixed{position:fixed;}
+a:link,a:visited{ text-decoration:none;}a:hover,a:active{ text-decoration:none;}
+.bold{font-weight:bold;}.normal{font-weight:normal;}
+.left{text-align:left;}.center{text-align:center;}.right{text-align:right;}
+.hide{display:none;}.block{display:block;}.inline-block{display:inline-block;}
+.fl{float:left;}.fr{float:right;}
+.ofhidden{overflow:hidden;}
+.vm > *{display:inline-block;vertical-align:middle;}
+.op0{opacity: 0;}.op1{opacity: 0.1;}.op2{opacity: 0.2;}.op3{opacity: 0.3;}.op4{opacity: 0.4;}.op5{opacity: 0.5;}.op6{opacity: 0.6;}.op7{opacity: 0.7;}.op8{opacity: 0.8;}.op9{opacity: 0.9;}.op10{opacity: 1;}
+.w10p{width:10%;}.w20p{width:20%;}.w30p{width:30%;}.w40p{width:40%;}.w50p{width:50%;}.w60p{width:60%;}.w70p{width:70%;}.w80p{width:30%;}.w90p{width:90%;}.w100p{width:100%;}
+
+/*------------ 共有样式 ------------*/
+.container{background: url(../img/bg.png) center center;background-size: 100% 100%;}
+.container img{/* width:100%; */display:inline-block;}
+.imgbox{line-height:0;}
+h5{padding: 0; margin: 0;}
+
+/*------------ 首页 ------------*/
+
+.enrollBtn{display: inline-block;position: absolute;top:0;bottom:0;left:29.066667vw;width:39.2vw;}
+.wp{width:89.6vw;margin-left: auto;margin-right: auto;}
+
+
+
+.contGs{}
+.pt10{padding-top: 1.333333vw;}
+.pt30{padding-top: 4.0vw;}
+.pl20{padding-left: 2.666667vw;}
+.pr20{padding-right: 2.666667vw;}
+.pt70{padding-top: 9.333333vw;}
+.pt40{padding-top: 5.333333vw;}
+.pt50{padding-top: 6.666667vw;}
+.pb50{padding-bottom: 6.666667vw;}
+.pt60{padding-top: 8.0vw;}
+.wkBox{display: flex;justify-content: space-between; flex-wrap: wrap; position: relative;z-index: 10;}
+
+.bigBox{width:73.333333vw; margin:0 auto;}
+
+.wk01{width:73.333333vw;height: 54.933333vw;}
+.wk02{width: 44.0vw;height: 32.933333vw;}
+.wkBox li{width: 41.333333vw;margin-bottom: 6.666667vw;}
+
+.wkImg{width: 44.0vw;height: 32.933333vw;}
+.wkName a{font-size:4.533333vw;color: #fff;}
+.pl10{padding-left: 1.333333vw;}
+.pr25{padding-right: 3.333333vw;}
+.pt20{padding-top: 2.666667vw;}
+.pt10{padding-top: 1.333333vw;}
+.pt90{padding-top: 12.0vw;}
+.mb50{margin-bottom: 6.666667vw;}
+.wkBox li:last-child{margin: 0 auto;}
+
+.gstp{background: url(../img/gstop.png) no-repeat center center;height: 110.133333vw;background-size: 100% 100%;}
+.gst1{height: 20.533333vw;}
+
+.gswk1{width: 70.666667vw;height: 53.333333vw;}
+.gswk2{width: 41.333333vw;height: 31.333333vw;}
+.gstTxt{width: 70.666667vw;margin-left: auto;margin-right: auto;color: #fff;}
+.gstTxt a{font-size: 4.8vw;color: #fff;}
+.gstNm a{font-size: 3.733333vw;}
+.gst2{height: 21.866667vw;}
+.gst3{height: 21.2vw;}
+.gst4{height: 21.6vw;}
+.wkBox li{width: 41.333333vw;color: #fff;}
+.wkBox li a{color: #fff;font-size: 4.8vw;}
+.wkBox li .gstW{width: 41.333333vw;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.wkBox li .gstNm{width: 41.333333vw;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;font-size: 3.733333vw;}
+.wkBox li .gstNm a{font-size: 3.733333vw;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
