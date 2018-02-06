@@ -88,250 +88,405 @@
 <link rel="stylesheet" href="https://cdn.staticfile.org/Swiper/3.4.2/css/swiper.min.css">
 <script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.staticfile.org/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/jQueryRotate.2.2.js"></script>
-<script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
 <script src="assets/js/main.js?v=1"></script>
+<script src="assets/js/countdown.class.js"></script>
 
 <div class="wiBig">
-    
     <div class="topBanner">
-        <a href="#" class="indexUps">上传作品</a>
-    </div>
-    <div class="tbg01" id="fl01" goto="true" >
-        <div class="center pt80">
-                    当教师节遇到高高手，<br>
-        当合成遇到你喜爱老师，<br>
-        为他合成一套气质显著风格独特的照片，<br>
-        可能是对他另一种爱戴和喜欢。<br>
-        <p class="pt10"></p>
-        这个教师节，有点儿不一样！<br>
-        <span>用合成、用创意，为你心中的老师P张图！</span><br>
-        最后，祝所有的老师节日快乐！
+        <div class="timeZone" id="timeZone">
+            距离活动开始仅剩
+                <span numbertype="day">
+                <span>0</span>
+            </span>天<span numbertype="hour">
+                <span><b>0</b><b></b></span>
+            </span>时<span numbertype="minute">
+                <span><b>0</b><b></b></span>
+            </span>秒
+            
+            <span numbertype="second">
+                <span><b>0</b><b></b></span>
+            </span>
         </div>
-        <div class="pt40 center mt30">
-            <img src="assets/img/t01.png">
+    </div>
+    <div class="topBg">
+        <div class="itop">
+            <a href="#" class="tNav1 tNav"></a>
+            <a href="#" class="tNav2 tNav"></a>
+            <a href="#" class="tNav3 tNav"></a>
+            <a href="#" class="tNav4 tNav"></a>
+            <div class="wp">
+                <div class="center salebox">
+                    <a href="#"><img src="assets/img/sale1.png" alt=""></a>
+                    <a href="#"><img src="assets/img/sale2.png" alt=""></a>
+                    <a href="#"><img src="assets/img/sale3.png" alt=""></a>
+                    <a href="#"><img src="assets/img/sale4.png" alt=""></a>
+                    <a href="#"><img src="assets/img/sale5.png" alt=""></a>
+                    <a href="#"><img src="assets/img/sale6.png" alt=""></a>
+                </div>
+                <div class="center pt40">
+                    <a href="#" class="lbtn_w lbtn_s lbtn"></a>
+                    <div class="lTxt">今天还可领 <span>2</span> 次</div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="wp">
-    <div class="wrpBxo">
-        <ul class="navBox" floornav>
-        <li data-goto="#fl01"><a href="#">活动引言</a></li>
-        <li data-goto="#fl02"><a href="#">交作业</a></li>
-        <li data-goto="#fl03"><a href="#">活动说明</a></li>
-        <li data-goto="#fl04"><a href="#">全部作品</a></li>
-    </ul>
-    </div>
-    
-    <!-- Swiper -->
-            <div class="swiperBox" id="swiperBox">
-                <div class="swiper-container indexbanner">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="swkBox">
-                                <a href="#" target="_blank"><img src="assets/img/swk.jpg" width="268" height="262"></a>
-                                <a href="#" target="_blank"><img src="assets/img/swk.jpg" width="268" height="262"></a>
-                                <a href="#" target="_blank"><img src="assets/img/swk.jpg" width="268" height="262"></a>
-                            </div>
+        <div class="tbgB tbg1 mt85">
+            <div class="tlimg tlimg1"><img src="assets/img/tlimg1.png" alt=""></div>
+            <div class="cPece">
+                <div class="cLp">
+                    <a href="javascript:void(0)" class="cPbtn" onclick="zc.startCj();"></a>
+                    <div class="center pt30">今日可拆福袋数量：<span>13</span>个<p>
+                        <a href="#">我的中奖记录</a>
+                    </p></div>
+                </div>
+                <div class="cLpY">
+                    <ul class="cPimg" id="cPimg">
+                        <li class="active"><img src="assets/img/cimg1.png" alt=""></li>
+                        <li><img src="assets/img/cimg2.png" alt=""></li>
+                        <li><img src="assets/img/cimg3.png" alt=""></li>
+                        <li><img src="assets/img/cimg4.png" alt=""></li>
+                        <li><img src="assets/img/cimg5.png" alt=""></li>
+                        <li><img src="assets/img/cimg6.png" alt=""></li>
+                        <li><img src="assets/img/cimg7.png" alt=""></li>
+                        <li><img src="assets/img/cimg8.png" alt=""></li>
+                        <li><img src="assets/img/cimg9.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="tbgB tbg2 mt85">
+            <div class="tlimg tlimg2"><img src="assets/img/tlimg2.png" alt=""></div>
+            <div class="miniWP">
+                <ul class="focusBox mt20 bWk">
+                    <li><a href="#"><img src="assets/img/img1.png"></a>
+                        <div class="foTitle pt5 pl5 pb10"><a href="#">UI设计全能班</a>
+                            <div class="pt5">像素范儿</div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="swkBox">
-                                <a href="#" target="_blank"><img src="assets/img/swk.jpg" width="268" height="262"></a>
-                                <a href="#" target="_blank"><img src="assets/img/swk.jpg" width="268" height="262"></a>
-                                <a href="#" target="_blank"><img src="assets/img/swk.jpg" width="268" height="262"></a>
-                            </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>6780 <span>￥7980</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img2.png"></a>
+                        <div class="foTitle pt5 pl5 pb10"><a href="#">零基础学ai商业插画</a>
+                            <div class="pt5">王云飞、包子</div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="swkBox">
-                                <a href="#" target="_blank"><img src="assets/img/swk.jpg" width="268" height="262"></a>
-                                <a href="#" target="_blank"><img src="assets/img/swk.jpg" width="268" height="262"></a>
-                                <a href="#" target="_blank"><img src="assets/img/swk.jpg" width="268" height="262"></a>
-                            </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>2780 <span>￥3980</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img3.png"></a>
+                        <div class="foTitle pt5 pl5 pb10"><a href="#">新概念CG头像实战班</a>
+                            <div class="pt5">陈惟</div>
                         </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>2980 <span>￥3280</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tbgB tbg2 mt85">
+            <div class="tlimg tlimg2"><img src="assets/img/tlimg3.png" alt=""></div>
+            <div class="miniWP">
+                <ul class="focusBox mt20">
+                    <li><a href="#"><img src="assets/img/img4.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">造物之术—周大杰产品后期精修</a>
+                            <div class="pt5">周大杰</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>880 <span>￥980</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img5.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">造像之术---Photoshop商业人像精修</a>
+                            <div class="pt5">刘杨</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>780 <span>￥980</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img6.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">跟何清超学达芬奇</a>
+                            <div class="pt5">何清超</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>680 <span>￥1180</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img7.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">色彩设计法则</a>
+                            <div class="pt5">梁景红</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>499 <span>￥599</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tbgB tbg2 mt85">
+            <div class="tlimg tlimg2"><img src="assets/img/tlimg4.png" alt=""></div>
+            <div class="miniWP">
+                <ul class="focusBox mt20">
+                    <li><a href="#"><img src="assets/img/img8.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">杰克电商合成案例教程</a>
+                            <div class="pt5">杰克</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>218 <span>￥298</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img9.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">用插画讲故事——治愈系商
+业插画绘制</a>
+                            <div class="pt5">峰籽一</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>199 <span>￥249</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img10.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">包子教你画静态卡通表情包</a>
+                            <div class="pt5">狂奔的包子插画铺</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>199 <span>￥298</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img11.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">UI交互动效进阶</a>
+                            <div class="pt5">EthankDesign</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>199 <span>￥298</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tbgB tbg3 mt85">
+            <div class="tlimg tlimg2"><img src="assets/img/tlimg5.png" alt=""></div>
+            <div class="miniWP">
+                <ul class="focusBox mt20">
+                    <li><a href="#"><img src="assets/img/img12.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">治字百方—左佐字体设计课</a>
+                            <div class="pt5">左佐</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>198 <span>￥258</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img13.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">青春少女拍摄指南</a>
+                            <div class="pt5">青山裕企</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>198 <span>￥599</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img14.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">AI商业插画：扁平风插图绘
+制</a>
+                            <div class="pt5">奶哥</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>198 <span>￥199</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img15.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">电商海报设计基础</a>
+                            <div class="pt5">山岩</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>178 <span>￥228</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img16.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">从零开始学素描（人像篇）</a>
+                            <div class="pt5">王云飞</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>178 <span>￥178</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img17.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">Principle·交互动效制作基础</a>
+                            <div class="pt5">像素范儿</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>128 <span>￥198</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img18.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">UI图标设计基础课</a>
+                            <div class="pt5">UIbang</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>178 <span>￥198</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img19.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">艺术二维码绘制基础</a>
+                            <div class="pt5">叶思秋</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>178 <span>￥129</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tbgB tbg3 mt85">
+            <div class="tlimg tlimg2"><img src="assets/img/tlimg6.png" alt=""></div>
+            <div class="miniWP">
+                <ul class="focusBox mt20">
+                    <li><a href="#"><img src="assets/img/img20.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">数码摄影后期高手之路</a>
+                            <div class="pt5">李涛</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>99 <span>￥298</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img21.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">Premiere剪辑基础</a>
+                            <div class="pt5">王海波</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>99 <span>￥129</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img22.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">中下游的温暖插画世界</a>
+                            <div class="pt5">中下游</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>99 <span>￥129</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img23.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">商业UI设计：全链式设计方
+法与流程</a>
+                            <div class="pt5">EthankDesign</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>99 <span>￥149</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img24.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">水彩三部曲之基础技法</a>
+                            <div class="pt5">红花</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>99 <span>￥149</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img25.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">Adobe Camera Raw：照
+片无损后期利器</a>
+                            <div class="pt5">Thomas看看世界</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>98 <span>￥98</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img26.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">尚巍手写字入门课</a>
+                            <div class="pt5">尚巍</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>79 <span>￥79</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img27.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">手帐入门课：带着手帐看
+世界</a>
+                            <div class="pt5">栗之酱</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>78 <span>￥108</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tbgB tbg3 mt85">
+            <div class="tlimg tlimg2"><img src="assets/img/tlimg7.png" alt=""></div>
+            <div class="miniWP">
+                <ul class="focusBox mt20">
+                    <li><a href="#"><img src="assets/img/img28.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">After Effects CC 高手之路</a>
+                            <div class="pt5">李涛</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>49 <span>￥49</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img29.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">MG动画之产品宣传片制作</a>
+                            <div class="pt5">TVart</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>48 <span>￥78</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img30.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">黑白照片上色</a>
+                            <div class="pt5">刘杨</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>40 <span>￥50</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img31.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">像素造字法</a>
+                            <div class="pt5">开心老头</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>38 <span>￥58</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img32.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">绘画中的科学观察法</a>
+                            <div class="pt5">陈惟</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>28 <span>￥38</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img33.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">广告级皮肤处理</a>
+                            <div class="pt5">李涛</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>25 <span>￥25</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img34.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">风光摄影基础：光线和色彩
+的运用</a>
+                            <div class="pt5">燕子木</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>20 <span>￥38</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                    <li><a href="#"><img src="assets/img/img35.png"></a>
+                        <div class="foTitle pt5 pl5 pb10 pr5"><a href="#">4A广告公司如何做海报之
+电商饮料类</a>
+                            <div class="pt5">桌松</div>
+                        </div>
+                        <div class="ftB clearfix"><div class="priceT"><b>￥</b>19 <span>￥29</span></div><a href="#" class="onBuy">立即购买</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tbg4 mt30">
+            <div class="miniWP pt60">
+                <div class="bTle pt30 pb10">[880元红包天天领]活动说明</div>
+                <div class="btTxt"><b>活动时间：</b><span>2018年2月12日0:00～26日24:00；</span></div>
+                <div class="btTxt"><b>领取规则：</b><span>每个账号每天可领3次；领取的优惠券请在个人账户“我的优惠券”中查看；</span></div>
+                <div class="btTxt clearfix">
+                    <div class="fl"><b>使用规则：</b></div>
+                    <div class="fl">
+                        <p>活动涉及所有优惠券均不支持购买线下课程、预售期课程；</p>
+                        <p>优惠券使用有效期截止至2018年2月28日；</p>
+                        <p>每次限用1张优惠劵，购物车可用，一次使用，不得找零；</p>
+                        <p>如报班时未使用本活动优惠券，则视为自动放弃；</p>
+                        <p>本活动优惠券不可退换，超过有效时间将无法使用；</p>
+                        <p>本活动优惠券与账户绑定，不可转让，不可提现。</p>
                     </div>
-                    <!-- Add Pagination -->
-                    <!-- <div class="swiper-pagination"></div> -->
-                    <!-- Add Arrows -->
                 </div>
-                 <div class="swiper-button-next"></div>
-                 <div class="swiper-button-prev"></div>
-            </div>
-        <!-- Swiper JS -->
-        <div class="center downP mt20 pb10">拿起手中的修图笔，跟我一起来尬图！  <a href="#" class="downBtn">下载素材</a></div>
-        <div class="pt40 center" id="fl02" goto="true">
-            <img src="assets/img/t02.png">
-        </div>
-        <div class="center ruteTxt mt20">
-            活动奖品：桌松合成直播课、站酷11周年 300元学习礼包、《电商海报设计基础》全额券、<br>
-            《玄幻风广告图后期合成》全额券、高高手灵感本、5元通用券、5元老飘飘系列。
-        </div>
-        <div class="center mt20"><a href="#" class="downBtn">上传作品</a></div>
-        <div class="center bigzp">
-            <img id="turnBtn" src="assets/img/turn.png" onclick="zc.rotateGo()" class="turnO">
-            <div class="prize01 prizeTxt">
-                <img src="assets/img/300.png" class="pb20">
-                <div class="center">
-                    站酷11周年<br>
-                300元<br>
-                学习礼包
+                <div class="bTle pt30 pb10">[购课拆福袋]活动说明</div>
+                <div class="btTxt"><b>活动时间：</b><span>2018年2月12日0:00～26日24:00；</span></div>
+                <div class="btTxt clearfix">
+                    <div class="fl"><b>活动规则： </b></div>
+                    <div class="fl wid6">
+                        <p> 活动期内，每笔课程购买订单实际支付（直接支付或用点数支付）超过20元即可以获得1次拆福袋机会；抽奖机会可累加；</p>
+                        <p> 抽奖机会截止至2018年2月26日24：00；</p>
+                    </div>
                 </div>
-                
-            </div>
-            <div class="prize02 prizeTxt">
-                <div class="pl30"><img src="assets/img/teach.png"></div>
-                <p class="pt10">
-                桌松合成直播课</p>
-            </div>
-            <div class="prize03 prizeTxt">
-                <p>电商海报设计基础》<br>
-                全额券</p>
-                <div class="pl60 pt10"><img src="assets/img/allmoney.png"></div>
-            </div>
-            <div class="prize04 prizeTxt">
-                <p>玄幻风广告图<br>
-                后期合成》<br>
-                全额券</p>
-                <div class="pl60 pt10"><img src="assets/img/allmoney.png"></div>
-            </div>
-            <div class="prize05 prizeTxt">
-                高高手灵感本
-                <div class=" pt10"><img src="assets/img/ggs.png"></div>
-                
-            </div>
-            <div class="prize06 prizeTxt">
-                <img src="assets/img/fived.png">
-                <p class="pl40 pt10">5元通用券</p>
-            </div>
-            <div class="prize07 prizeTxt">
-                <img src="assets/img/fived.png">
-                <p class="pl40 pt10">5元老飘飘系列</p>
+                <div class="btTxt clearfix">
+                    <div class="fl"><b>兑奖规则：</b></div>
+                    <div class="fl wid6">
+                        <p>-虚拟产品将实时发送到中奖账户；实物奖品一旦中奖请24小时内点击“<a href="#">我的中奖记录</a>”完善奖品送货地址和联系方式，过期则失效；</p>
+                        <p>实物奖品高高手将于3月15前统一邮寄；</p>
+                        <p>-由于活动期间抽奖人数较多，如果出现抽奖不成功或者系统崩溃的情况请耐心等待并尝试刷新，如果尝试仍未成功再联系在线客服，</p>
+                        <p>由于咨询量大，请耐心等待不要催哦</p>
+                    </div>
+                </div>
+                <div class="bTle pt30 pb10">[购课满8000元送礼]活动说明</div>
+                <div class="btTxt"><b>活动时间：</b><span>2018年2月12日0:00～26日24:00；</span></div>
+                <div class="btTxt clearfix">
+                    <div class="fl"><b>活动规则： </b></div>
+                    <div class="fl wid6">
+                        <p> 活动期内，累计购课金额达8000元，即可获赠高高手新年定制礼盒一套；</p>
+                        <p>累计购课金额，以订单实际支付金额为准，不含优惠券支付；充值点数支付，按充值折扣折算成实际金额核算；</p>
+                    </div>
+                </div>
+                <div class="btTxt clearfix">
+                    <div class="fl"><b>兑奖规则：</b></div>
+                    <div class="fl">
+                        <p>点击“<a href="#">查看我的累计购金额</a>”确认是否获奖并填写收件地址；中奖学员请于3月5日24：00前填写奖品送货地址和联</p>
+                        <p>系方式，过期则失效；奖品将于3月15日前统一邮寄。</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="pt40 center" id="fl03" goto="true">
-            <img src="assets/img/t03.png">
+    </div>
+    <div class="footB">
+        <div class="center "><img src="assets/img/moret.png" alt=""></div>
+        <div class="fnavBox">
+            <a href="#" class="fnav fnav1"></a>
+            <a href="#" class="fnav fnav2"></a>
+            <a href="#" class="fnav fnav3"></a>
+            <a href="#" class="fnav fnav4"></a>
+            <a href="#" class="fnav fnav5"></a>
+            <a href="#" class="fnav fnav6"></a>
+            <a href="#" class="fnav fnav7"></a>
         </div>
-        <div class="timeTxt">
-            <div class="mt20">
-                <span>提交时间</span>：2017年9月1日-2017年9月14日<br>
-                <span>疯狂流程</span>：学员下载老师照片，合成任意一张后上传、抽奖（或获得点赞）、获得奖品。<br>
-                <span>作品说明</span>：-单张作品尺寸XXX*YYY，文件≦5M。<br>
-                <span class="pl80"></span> -学员作品仅限本活动宣传、展示，不得用于其他活动或商业项目。<br>
-                <span class="pl80"></span>-在法律范围内，本活动解释权归高高手所有。</div>
+        <div class="center pt30"><img src="assets/img/moreac.png" alt=""></div>
+        <div class="ewmBox center wp mt30 pb60">
+            <div class=""><img src="assets/img/ewm1.png" alt="">
+                <p>高高手微信公众号</p>
+            </div>
+            <div class=""><img src="assets/img/ewm2.png" alt="">
+                <p>高高手官方微博</p>
+            </div>
         </div>
-        <div class="pt40 center mt20">
-            <img src="assets/img/t04.png">
-        </div>
-        <div class="timeTxt">
-            <div class="mt20">
-                <span>获奖说明</span>：-活动期间每上传一次作品即可获得一次抽奖机会（当天有效），每位同学活动期间最多三次抽奖机会。<br>
-                <span class="pl80"></span>-点赞数前20名同学，获定制版高高手灵感本。<br>
-                <span>奖品发放</span>：-抽奖获得奖品，会立即发送至您的高高手帐户。<br>
-                <span class="pl80"></span>  -实物奖品会在活动结束后5个工作日内发放完毕。<br>
-                如问题请及时联系高高手客服。</div>
-        </div>
-        <div class="pt40 center mt20 pb30">
-            <img src="assets/img/t05.png">
-        </div>
-        <ul class="tWklist">
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr price">￥123</div>
-                </div>
-           </li>
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr price">￥123</div>
-                </div>
-           </li>
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr price">￥123</div>
-                </div>
-           </li>
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr price">￥123</div>
-                </div>
-           </li>
-        </ul>
-         <div class="pt40 center mt20" id="fl04" goto="true">
-            <img src="assets/img/t06.png">
-        </div>
-        <div class="wktitle vm pl20">
-            <span class="dosx"> 筛选：
-                <a href="#" class="active">时间</a><span>&nbsp;/&nbsp;</span> 
-                <a href="#">浏览</a><span>&nbsp;/&nbsp;</span> 
-                <a href="#">评论</a><span class="pl20"></span> 
-              <span class="alltotal"> 作品数量：</span>
-                <span class="total">1638</span>
-            </span>
-        </div>
-         <ul class="tWklist">
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr prices gray">3小时前</div>
-                </div>
-           </li>
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr prices gray">3小时前</div>
-                </div>
-           </li>
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr prices gray">3小时前</div>
-                </div>
-           </li>
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr prices">3小时前</div>
-                </div>
-           </li>
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr prices gray">3小时前</div>
-                </div>
-           </li>
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr prices gray">3小时前</div>
-                </div>
-           </li>
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr prices">3小时前</div>
-                </div>
-           </li>
-           <li><a href="#"><img src="assets/img/wk.png"></a>
-                <div class="wkName pt10"><a href="#"><div>暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端暗杀神多爱丽丝客户端</div></a></div>
-                <div class="layout vm">
-                    <div class="wkUser fl pt5">by <a href="#">hight</a></div>
-                    <div class="fr prices">3小时前</div>
-                </div>
-           </li>
-        </ul>
-        <div class="center ggspages"><a href="#"><</a><a href="#" class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>...</span><a href="#">20</a><a href="#">></a></div>
     </div>
 </div>
 
