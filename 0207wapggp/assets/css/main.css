@@ -84,18 +84,18 @@ a.cPbtn{background: url(../img/fbtn.png) no-repeat center center;background-size
 
 .miniWP{width: 88.0vw;margin-left: auto;margin-right: auto;}
 .focusBox{display: flex;justify-content: space-between; flex-wrap: wrap;}
-.focusBox li{width: 43.2vw;box-sizing: border-box;border:2px solid #5d3726;margin-bottom: 2.266667vw;background: #ffdcc9;height: 56.533333vw;}
+.focusBox li{width: 43.2vw;box-sizing: border-box;border:2px solid #5d3726;margin-bottom: 2.266667vw;background: #ffdcc9;/*height: 56.533333vw;*/}
 .focusBox li img{width: 42.233333vw;height: 32.0vw;border-bottom: 2px solid #5d3726}
 .foTitle{font-size: 3.2vw;color: #000;}
-.foTitle a{font-size: 3.2vw;height: 8vw;display: inline-block;line-height: 4vw;}
-.foTitle div{font-size: 2.4vw;color: #434343;padding-bottom: 1.333333vw;}
+.foTitle a{font-size: 3.2vw;height: 8.5vw;display: inline-block;line-height: 4vw;}
+.foTitle div{font-size: 2.4vw;color: #434343;/*padding-bottom: 1.333333vw;*/}
 .pt10{padding-top: 1.333333vw;}
 .pl10{padding-left: 1.333333vw;}
 .pt5{padding-top:0.666667vw;}
 .pl5{padding-left: 0.666667vw;}
 /*a.focBtn{height:7.333333vw;display: inline-block;width: 226px;background: #6ad8d8; line-height: 7.333333vw;text-align: center;color: #000;font-size: 3.2vw;font-weight: bold;}
 a.focBtn.defalt{background: #8b8b8b;cursor: default;}*/
-.ftB{height: 7.433333vw;line-height: 7.433333vw;border-top: 2px solid #5d3726;}
+.ftB{height: 7.33333vw;line-height: 7.333333vw;border-top: 2px solid #5d3726;}
 
 a.onBuy{width: 18.0vw;color: #fff;font-size: 3.2vw;display: inline-block;background: #e34527;height: 7.333333vw;line-height: 7.333333vw; float: right;text-align: center;}
 .bWk li{width:88.0vw;background: #ffdcc9;display: flex;align-items: stretch;height: 38.666667vw;}
