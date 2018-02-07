@@ -61,11 +61,11 @@ var zc = {
       $(window).on("scroll", function () {
           var _top = $(window).scrollTop();
 
-          if(_top > $(".headerWrapper").height() + 56){
-            $(_self.options.dom).show();
-          }else{
-            $(_self.options.dom).hide();
-          }
+          // if(_top > $(".headerWrapper").height() + 56){
+          //   $(_self.options.dom).show();
+          // }else{
+          //   $(_self.options.dom).hide();
+          // }
           for(var i=0;i<arrGotoTop.length;i++){
             if(i==arrGotoTop.length-1){ //最后一个
               if(_top >=  arrGotoTop[i] || _top >= ($(document).height()-$(window).height())){
