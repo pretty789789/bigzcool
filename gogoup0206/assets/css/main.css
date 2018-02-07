@@ -42,13 +42,17 @@ body{font-family:"-apple-system","San-Fransico",Helvetica Neue,Helvetica,Microso
 
 .itop{background: url(../img/itop.jpg) no-repeat center center;height: 575px;position: relative;}
 .topBg{background: linear-gradient(#f65f4a,#f55240);}
+.itopN li{width: 190px;height: 55px;}
+.itopN{display: flex;width: 922px;margin-left: auto;margin-right: auto;padding-top: 30px;justify-content: space-between;}
+.itopN li a{display: inline-block;width: 190px;height: 55px;}
 
-a.tNav{position: absolute;top: 28px;left: 50%;}
-a.tNav1{width: 150px;height: 55px;margin-left: -460px;}
+
+/*a.tNav{position: absolute;top: 28px;left: 50%;background: #fff;}*/
+/*a.tNav1{width: 150px;height: 55px;margin-left: -460px;}
 a.tNav2{width: 150px;height: 55px;margin-left: -245px;}
 a.tNav3{width: 195px;height: 55px;margin-left: -5px;}
-a.tNav4{width: 190px;height: 55px;margin-left: 272px;}
-.salebox{padding-top: 280px;}
+a.tNav4{width: 190px;height: 55px;margin-left: 272px;}*/
+.salebox{padding-top: 130px;}
 .salebox a{margin-right: 10px;}
 a.lbtn{background: url(../img/lbtn.png) no-repeat center center;width: 249px;height: 49px;display: inline-block;}
 a.lbtn:hover{background: url(../img/lbtn_h.png) no-repeat center center;}
@@ -95,8 +99,8 @@ a.focBtn.defalt:hover{color: #000;}
 a.focBtn:hover{color: #fff;}
 .ftB{height: 34px;line-height: 34px;border-top: 2px solid #5d3726;background: #ffe9de;}
 
-a.onBuy{width: 88px;color: #fff;font-size: 16px;display: inline-block;background: #f6664a;height: 34px; float: right;text-align: center;float: right;}
-a.onBuy:hover{color: #fff;}
+a.onBuy{width: 88px;color: #fff;font-size: 16px;display: inline-block;background: #e34527;height: 34px; float: right;text-align: center;float: right;}
+a.onBuy:hover{background: #f6664a;}
 .bWk li{width:280px;background: #ffdcc9;}
 .bWk li img{width:276px;height: 206px;}
 .bWk li .ftB .priceT{width: 136px;}
@@ -108,7 +112,7 @@ a.onBuy:hover{color: #fff;}
 .bWk li .foTitle a{font-size: 16px;height: 24px;display: inline-block;}
 .mt60{margin-top: 60px;}
 .tbg3{background: url(../img/tbg3.png) no-repeat center center;height: 715px;display: flex;justify-content: center;align-items: center;}
-.tbg4{background: url(../img/tbg4.png) no-repeat center center;height: 883px;display: flex;justify-content: center;align-items: center;z-index: 100;position: relative;}
+.tbg4{background: url(../img/tbg4.png) no-repeat center center;height: 883px;display: flex;justify-content: center;align-items: center;z-index: 1;position: relative;}
 .fl{float: left;}
 
 .wid6{width: 825px;}
@@ -127,12 +131,19 @@ a.fnav6{margin-left: 350px;width: 85px;height: 45px;}
 .ewmBox{display: flex;width: 593px;margin-left: auto;margin-right: auto;justify-content: space-between;color: #fff;font-size: 14px;}
 .pb60{padding-bottom: 60px;}
 
-.timeZone{position: absolute;left: 50%;bottom: 10px;margin-left: -150px;font-size: 24px;color: #571e10;}
+.timeZone{position: absolute;left: 50%;bottom: 5px;margin-left: -260px;font-size: 24px;color: #571e10;}
+
+.timeZone{}
+.timeZone > span{display: inline-block;width:55px;height:28px;line-height:38px;font-weight:bold; text-align: center; position: relative; overflow: hidden;color: #fdb58e;}
+.timeZone > span:last-child{margin:0;}
+
+.timeZone > span > span{width:40px;height:33px; display: inline-block; overflow: hidden; position: absolute;left:0;top:0;}
+.timeZone > span > span:last-child{right:0;left:auto;}
+.timeZone > span > span b{width:35px;height:25px;display: inline-block;}
 
 
-
-
-
+.focusBox li .foTitle{height: 64px;}
+.bWk li .foTitle{height: 44px;}
 
 
 

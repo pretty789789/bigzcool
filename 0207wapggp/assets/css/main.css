@@ -1,0 +1,183 @@
+.clearfix:after,.cl:after{content:'\20';display:block;height:0;clear:both;}.clearfix,.cl{*zoom:1;}.clear{clear:both;}
+.relative{position:relative;}.absolute{position:absolute;}.fixed{position:fixed;}
+a:link,a:visited{ text-decoration:none;}a:hover,a:active{ text-decoration:none;}
+.bold{font-weight:bold;}.normal{font-weight:normal;}
+.left{text-align:left;}.center{text-align:center;}.right{text-align:right;}
+.hide{display:none;}.block{display:block;}.inline-block{display:inline-block;}
+.fl{float:left;}.fr{float:right;}
+.ofhidden{overflow:hidden;}
+.vm > *{display:inline-block;vertical-align:middle;}
+.op0{opacity: 0;}.op1{opacity: 0.1;}.op2{opacity: 0.2;}.op3{opacity: 0.3;}.op4{opacity: 0.4;}.op5{opacity: 0.5;}.op6{opacity: 0.6;}.op7{opacity: 0.7;}.op8{opacity: 0.8;}.op9{opacity: 0.9;}.op10{opacity: 1;}
+.w10p{width:10%;}.w20p{width:20%;}.w30p{width:30%;}.w40p{width:40%;}.w50p{width:50%;}.w60p{width:60%;}.w70p{width:70%;}.w80p{width:30%;}.w90p{width:90%;}.w100p{width:100%;}
+
+/*------------ 共有样式 ------------*/
+.container{background:#f55240;overflow: hidden;}
+.container img{/* width:100%; */display:inline-block;}
+.imgbox{line-height:0;width: 100%;}
+h5{padding: 0; margin: 0;}
+
+/*------------ 首页 ------------*/
+
+.enrollBtn{display: inline-block;position: absolute;top:0;bottom:0;left:29.066667vw;width:39.2vw;}
+.pt10{padding-top: 1.333333vw;}
+.pt30{padding-top: 4.0vw;}
+.pl20{padding-left: 2.666667vw;}
+.pr20{padding-right: 2.666667vw;}
+.pt70{padding-top: 9.333333vw;}
+.pt20{padding-top: 2.666667vw;}
+.pt40{padding-top: 5.333333vw;}
+.pt50{padding-top: 6.666667vw;}
+.pb50{padding-bottom: 6.666667vw;}
+.pb20{padding-bottom: 2.666667vw;}
+.boxBg{background:#f55240;}
+.mt20{margin-top: 2.666667vw;}
+.mt10{margin-top: 1.333333vw;}
+.wp{width: 96.0vw;margin: 0 auto;}
+
+.banner{height: 68.666667vw;}
+.navB{background: url(../img/navbg.png) no-repeat center center;height: 32.933333vw;background-size: 100% 100%;padding: 3.0vw 8.666667vw;margin: 0 1.333333vw;display: flex;justify-content: space-between;flex-wrap: wrap;position: relative;z-index: 1;}
+.navB li{width: 36.266667vw;margin-top: 4.0vw;}
+.nav1{height: 8.8vw;}
+.nav2{height: 8.666667vw;}
+.nav3{height: 8.8vw;}
+.nav4{height: 8.666667vw;}
+.tbg1{background: url(../img/tbg1.png) no-repeat center center;background-size: 100% 100%;height: 91.2vw;margin-top: -8vw;}
+.tbg2{background: url(../img/tbg2.png) no-repeat center center;background-size: 100% 100%;height: 158.133333vw;margin: 0 1.333333vw;}
+.tbg3{background: url(../img/tbg3.png) no-repeat center center;background-size: 100% 100%;height: 135.333333vw;margin: 0 1.333333vw;margin-top: 10.666667vw;}
+.tbg4{background: url(../img/tbg4.png) no-repeat center center;background-size: 100% 100%;height: 129.866667vw;margin: 0 1.333333vw;margin-top: 10.666667vw;}
+.tbg5{background: url(../img/tbg5.png) no-repeat center center;background-size: 100% 100%;height: 246.666667vw;margin: 0 1.333333vw;margin-top: 10.666667vw;}
+.tbg6{background: url(../img/tbg6.png) no-repeat center center;background-size: 100% 100%;height: 167.2vw;margin: 0 1.333333vw;margin-top: 10.666667vw;}
+
+.tbgBox{position: relative;}
+
+.saleBox{padding: 0 2.666667vw;padding-top: 100px;position: relative;z-index: 1;}
+.sale{width: 26.0vw;height: 26.133333vw;}
+.saleBox a:nth-child(4){margin-left: 13.5vw;top: 41.0vw;display:block;position: absolute;}
+.saleBox a:nth-child(5){margin-left: 41vw;top: 41.0vw;display:block;position: absolute;}
+.saleBox a:nth-child(6){margin-left: 68vw;top: 41.0vw;display:block;position: absolute;}
+
+a.lbtn{background: url(../img/lbtn.png) no-repeat center center;width: 33.2vw;height: 6.533333vw;display: inline-block;background-size: 100% 100%;}
+a.lbtn_w{background: url(../img/lbtn_w.png) no-repeat center center;cursor: default;background-size: 100% 100%;}
+a.lbtn_s{background: url(../img/lbtn_s.png) no-repeat center center;background-size: 100% 100%;}
+
+.cLp{color: #000;font-size: 2.666667vw;}
+.cLp span{color: #e34527;}
+.lbTxt{padding-top: 23.333333vw;}
+
+a.cPbtn{background: url(../img/fbtn.png) no-repeat center center;background-size: 100% 100%;height: 36.533333vw;display: inline-block;width: 34.8vw;}
+.cptl{padding-top: 24.0vw;}
+.cPimg li.active img{border: 5px solid #f83f45;box-sizing: border-box;}
+.cPimg{display: flex;justify-content: space-between;flex-wrap: wrap;height: 76.0vw;width: 82.666667vw;}
+.cLpY{width: 82.666667vw;margin-left: auto;margin-right: auto;}
+.cPimg li img{width:26.933333vw;height: 24.533333vw;}
+
+.tlimg{position: absolute;top: -10vw;left: 50%;}
+.tlimg1{height: 14.933333vw;margin-left: -23.333333vw;}
+.tlimg2{height: 14.933333vw;margin-left: -23.333333vw;}
+.tlimg3{height: 14.933333vw;margin-left: -23.333333vw;}
+.tlimg4{height: 14.933333vw;margin-left: -23.333333vw;}
+.tlimg5{height: 14.933333vw;margin-left: -23.333333vw;}
+.tlimg6{height: 14.933333vw;margin-left: -23.333333vw;}
+.tlimg7{height: 14.933333vw;margin-left: -23.333333vw;}
+
+
+
+.miniWP{width: 88.0vw;margin-left: auto;margin-right: auto;}
+.focusBox{display: flex;justify-content: space-between; flex-wrap: wrap;}
+.focusBox li{width: 43.2vw;box-sizing: border-box;border:2px solid #5d3726;margin-bottom: 2.266667vw;background: #ffdcc9;height: 56.533333vw;}
+.focusBox li img{width: 42.233333vw;height: 32.0vw;border-bottom: 2px solid #5d3726}
+.foTitle{font-size: 3.2vw;color: #000;}
+.foTitle a{font-size: 3.2vw;height: 8vw;display: inline-block;line-height: 4vw;}
+.foTitle div{font-size: 2.4vw;color: #434343;padding-bottom: 1.333333vw;}
+.pt10{padding-top: 1.333333vw;}
+.pl10{padding-left: 1.333333vw;}
+.pt5{padding-top:0.666667vw;}
+.pl5{padding-left: 0.666667vw;}
+/*a.focBtn{height:7.333333vw;display: inline-block;width: 226px;background: #6ad8d8; line-height: 7.333333vw;text-align: center;color: #000;font-size: 3.2vw;font-weight: bold;}
+a.focBtn.defalt{background: #8b8b8b;cursor: default;}*/
+.ftB{height: 7.333333vw;line-height: 7.333333vw;border-top: 2px solid #5d3726;}
+
+a.onBuy{width: 18.133333vw;color: #fff;font-size: 3.2vw;display: inline-block;background: #e34527;height: 7.333333vw;line-height: 7.333333vw; float: right;text-align: center;}
+.bWk li{width:88.0vw;background: #ffdcc9;display: flex;align-items: stretch;height: 38.666667vw;}
+.bWk li img{width:49.6vw;height: 37.6vw;border-right: 2px solid #5d3726;}
+.bWk li .ftB .priceT{border: none;}
+.bWk li .ftB{border: none;}
+.bWk li .ftB a.onBuy{width: 36.933333vw;border-top: 2px solid #5d3726;height: 7.2vw;line-height: 7.2vw;}
+.priceT{float: left;font-size: 4.0vw;color: #ec1e2c;display: inline-block;border-right: 2px solid #5d3726;float: left; font-weight: bold;height: 7.333333vw;width: 23.60vw;line-height: 7.333333vw;}
+.priceT span{font-size: 12px;color: #8f8f8f;text-decoration: line-through;font-weight: normal;}
+.priceT b{font-size: 14px;}
+
+.bWk li .foTitle a{font-size: 3.2vw;height: 24px;display: inline-block;}
+.bWk li .foTitle{height:20.1vw}
+
+.pt70{padding-top: 9.333333vw;}
+
+.bWk li .priceT{float: left;font-size: 4.0vw;color: #ec1e2c;display: inline-block;border-left: 2px solid #5d3726;float: left; font-weight: bold;padding-left: 1.333333vw;height: 8.0vw;}
+
+.pt60{padding-top: 8.0vw;}
+
+.mb60{margin-bottom: 8.0vw;}
+.wid6{width: 74.666667vw;}
+.bTle{font-size: 2.933333vw;font-weight: bold;color: #b8331a;}
+.btTxt{font-size: 2.666667vw;color: #000;line-height: 4.666667vw;width: 90.666667vw;}
+.btTxt a{color: #e34527;text-decoration: underline;}
+.footB{background: #cf3d2d;margin-top: -130px;padding-top: 160px;}
+
+
+
+
+
+
+
+.timeZone{position: absolute;left: 50%;bottom: 1vw;margin-left: -43vw;font-size: 3.2vw;color: #571e10;}
+
+.timeZone{}
+.timeZone > span{display: inline-block;width:8vw;height:3.0vw;line-height:3.0vw;font-weight:bold; text-align: center; position: relative; overflow: hidden;color: #fdb58e;}
+.timeZone > span:last-child{margin:0;}
+
+.timeZone > span > span{width:5.333333vw;height:4.4vw; display: inline-block; overflow: hidden; position: absolute;left:0;top:0;}
+.timeZone > span > span:last-child{right:0;left:auto;}
+.timeZone > span > span b{width:4.666667vw;height:4.0vw;display: inline-block;}
+
+
+.pb10{padding-bottom: 1.333333vw;}
+
+
+
+.topBanner{position: relative;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
