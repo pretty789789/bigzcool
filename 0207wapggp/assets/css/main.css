@@ -46,7 +46,7 @@ h5{padding: 0; margin: 0;}
 .tbg3{background: url(../img/tbg3.png) no-repeat center center;background-size: 100% 100%;height: 135.333333vw;margin: 0 1.333333vw;margin-top: 10.666667vw;}
 .tbg4{background: url(../img/tbg4.png) no-repeat center center;background-size: 100% 100%;height: 129.866667vw;margin: 0 1.333333vw;margin-top: 10.666667vw;}
 .tbg5{background: url(../img/tbg5.png) no-repeat center center;background-size: 100% 100%;height: 246.666667vw;margin: 0 1.333333vw;margin-top: 10.666667vw;}
-.tbg6{background: url(../img/tbg6.png) no-repeat center center;background-size: 100% 100%;height: 167.2vw;margin: 0 1.333333vw;margin-top: 10.666667vw;}
+.tbg6{background: url(../img/tbg6.png) no-repeat center center;background-size: 100% 100%;min-height: 167.2vw;margin: 0 1.333333vw;margin-top: 10.666667vw; padding-bottom: 6.0vw;}
 
 .tbgBox{position: relative;}
 
